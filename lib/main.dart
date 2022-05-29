@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_internationalization/intl/intl.dart';
-import 'package:getx_internationalization/intl/intl_keys.dart';
 
+import 'intl/intl.dart';
+import 'intl/intl_keys.dart';
 import 'home_page.dart';
 
 void main() {
@@ -10,7 +10,9 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);@override
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: IntlKeys.title.tr,
@@ -24,4 +26,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-

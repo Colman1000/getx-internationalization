@@ -1,6 +1,5 @@
-# getx_internationalization
-
-A new Flutter project.
+# getx-internationalization
+A demo for showcasing internalization/localization in flutter using GetX
 
 ## Getting Started
 
