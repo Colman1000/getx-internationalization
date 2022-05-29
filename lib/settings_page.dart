@@ -37,10 +37,46 @@ class SettingsPage extends StatelessWidget {
             },
           ),
           ListTile(
+            title: const Text('Tiv'),
+            dense: true,
+            onTap: () {
+              final _locale = Intl.localeTV_NG;
+
+              Get.updateLocale(_locale);
+            },
+          ),
+          ListTile(
             title: const Text('Igbo'),
             dense: true,
             onTap: () {
               final _locale = Intl.localeIG_NG;
+
+              Get.updateLocale(_locale);
+            },
+          ),
+          ListTile(
+            title: const Text('Yoruba'),
+            dense: true,
+            onTap: () {
+              final _locale = Intl.localeYR_NG;
+
+              Get.updateLocale(_locale);
+            },
+          ),
+          ListTile(
+            title: const Text('Hausa'),
+            dense: true,
+            onTap: () {
+              final _locale = Intl.localeHA_NG;
+
+              Get.updateLocale(_locale);
+            },
+          ),
+          ListTile(
+            title: const Text('Yoruba'),
+            dense: true,
+            onTap: () {
+              final _locale = Intl.localeYR_NG;
 
               Get.updateLocale(_locale);
             },

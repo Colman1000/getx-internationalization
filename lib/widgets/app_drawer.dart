@@ -40,7 +40,7 @@ class AppDrawer extends StatelessWidget {
             onTap: () {
               //go to settings page
               Get.back();
-              Get.to(const SettingsPage());
+              Get.to(() => const SettingsPage());
             },
           ),
         ],

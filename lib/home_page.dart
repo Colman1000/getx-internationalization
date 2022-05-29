@@ -57,18 +57,22 @@ class _HomePageState extends State<HomePage> {
                 count++;
               });
             },
+            heroTag: 'increment',
             child: const Icon(Icons.add),
           ),
           const SizedBox(height: 20),
           FloatingActionButton(
-            onPressed: count  <= 0 ? null: () {
-              if(count > 0) {
-                setState(() {
-                  count--;
-                });
-              }
-            },
-            backgroundColor: count  <= 0 ? Get.theme.disabledColor: null,
+            onPressed: count <= 0
+                ? null
+                : () {
+                    if (count > 0) {
+                      setState(() {
+                        count--;
+                      });
+                    }
+                  },
+            heroTag: 'decrement',
+            backgroundColor: count <= 0 ? Get.theme.disabledColor : null,
             disabledElevation: 0,
             child: const Icon(Icons.remove),
           ),

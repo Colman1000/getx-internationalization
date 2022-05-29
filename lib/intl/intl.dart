@@ -1,7 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:getx_internationalization/intl/translations/de.dart';
+import 'package:getx_internationalization/intl/translations/ha_NG.dart';
 import 'package:getx_internationalization/intl/translations/ko.dart';
+import 'package:getx_internationalization/intl/translations/tv_NG.dart';
+import 'package:getx_internationalization/intl/translations/yr_NG.dart';
 
 import 'translations/en_US.dart';
 import 'translations/fr.dart';
@@ -15,6 +18,9 @@ class Intl extends Translations {
         'fr_FR': fr,
         'ig_NG': ig_NG,
         'ko_KR': ko,
+        'ha_KR': ha_NG,
+        'tv_KR': tv_NG,
+        'yr_KR': yr_NG,
       };
 
   /*LOCALES*/
@@ -26,14 +32,11 @@ class Intl extends Translations {
 
   static Locale get localeIG_NG => const Locale('ig_NG');
 
-  static Locale get localeKO => const Locale('ko_KR');
+  static Locale get localeYR_NG => const Locale('yr_NG');
 
-  /*METHODS*/
-  static List<Locale> get supportedLocales => [
-        localeEN_US,
-        localeIG_NG,
-        localeDE,
-        localeFR,
-        localeKO, // Add other languages here
-      ];
+  static Locale get localeHA_NG => const Locale('ha_NG');
+
+  static Locale get localeTV_NG => const Locale('tv_NG');
+
+  static Locale get localeKO => const Locale('ko_KR');
 }
