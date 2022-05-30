@@ -6,7 +6,18 @@ import 'intl/intl_keys.dart';
 import 'home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    GetMaterialApp(
+      title: IntlKeys.title.tr,
+      translations: Intl(),
+      locale: Get.deviceLocale,
+      fallbackLocale: Intl.localeEN_US,
+      theme: ThemeData(
+        primarySwatch: Colors.teal,
+      ),
+      home: const HomePage(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {

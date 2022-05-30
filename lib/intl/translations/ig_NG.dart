@@ -1,3 +1,4 @@
+///Translated by @onumahkalusamuel.
 const ig_NG = <String, String>{
   'hello': 'Ndewo Ụwa',
   'title': 'Internationalization',
@@ -5,8 +6,7 @@ const ig_NG = <String, String>{
   'settings': 'Ntọala',
   'account': 'Akaụntụ',
   'selectLanguage': 'Họrọ Asụsụ',
-  'pen_singular': 'mkpịsị odee',
-  'pen_plural': 'mkpịsị akwụkwọ',
-  'iHave': 'Enwere m',
+  'pen_singular': 'Enwere m @count mkpịsị odee',
+  'pen_plural': 'Enwere m @count mkpịsị akwụkwọ',
   'default': 'Ọdabara',
 };

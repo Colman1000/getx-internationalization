@@ -42,7 +42,11 @@ class _HomePageState extends State<HomePage> {
           const SizedBox(height: 40),
           Align(
             child: Text(
-              '${IntlKeys.iHave.tr} $count ${IntlKeys.penSingular.trPlural(IntlKeys.penPlural, count)}',
+              IntlKeys.penSingular.trPluralParams(
+                IntlKeys.penPlural,
+                count,
+                {'count': count.toString()},
+              ),
               style: _textTheme.bodyText2,
             ),
           ),

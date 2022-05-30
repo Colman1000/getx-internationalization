@@ -1,3 +1,4 @@
+///Translated by @Colman1000.
 const tv_NG = <String, String>{
   'hello': 'Msugh Tar',
   'title': 'Ijwa',
@@ -5,8 +6,7 @@ const tv_NG = <String, String>{
   'settings': 'Usettingsi',
   'account': 'Akanti',
   'selectLanguage': 'Too zwa',
-  'pen_singular': 'pen',
-  'pen_plural': 'pen',
-  'iHave': 'M ngu a',
+  'pen_singular': 'M ngu a @count bilo',
+  'pen_plural': 'M ngu a @count bilo',
   'default': 'Kpookpoo',
 };

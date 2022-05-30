@@ -1,3 +1,4 @@
+///Translated with @sade_mary.
 const yr_NG = <String, String>{
   'hello': 'Mo ki O Ile Aiye',
   'title': 'Internationalization',
@@ -5,8 +6,7 @@ const yr_NG = <String, String>{
   'settings': 'Ètò',
   'account': 'Iroyin',
   'selectLanguage': 'Yan ede',
-  'pen_singular': 'ikowe',
-  'pen_plural': 'ikowe',
-  'iHave': 'Mo ni',
+  'pen_singular': 'Mo ni @count ikowe',
+  'pen_plural': 'Mo ni @count ikowe',
   'default': 'Aiyipada',
 };

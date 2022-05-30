@@ -15,7 +15,5 @@ class IntlKeys {
 
   static String get penPlural => 'pen_plural';
 
-  static String get iHave => 'iHave';
-
   static String get defaultText => 'default';
 }

@@ -1,3 +1,5 @@
+///Translated with Google Translate.
+
 const de = <String, String>{
   'hello': 'Hallo Welt',
   'title': 'Internationalisierung',
@@ -5,8 +7,7 @@ const de = <String, String>{
   'settings': 'Einstellungen',
   'account': 'Konto',
   'selectLanguage': 'Sprache Auswählen',
-  'pen_singular': 'stift',
-  'pen_plural': 'stifte',
-  'iHave': 'Ich habe',
+  'pen_singular': 'Ich habe @count stift',
+  'pen_plural': 'Ich habe @count stifte',
   'default': 'Standard',
 };

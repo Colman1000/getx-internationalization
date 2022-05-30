@@ -1,3 +1,4 @@
+///Translated with Google Translate.
 const ha_NG = <String, String>{
   'hello': 'Sannu Duniya',
   'title': 'Ƙasashen Duniya',
@@ -5,8 +6,7 @@ const ha_NG = <String, String>{
   'settings': 'Saituna',
   'account': 'Asusu',
   'selectLanguage': 'Zaɓi Harshe',
-  'pen_singular': 'alkalami',
-  'pen_plural': 'alƙaluma',
-  'iHave': 'ina da',
+  'pen_singular': 'Ina da @count alkalami',
+  'pen_plural': 'Ina da @count alƙaluma',
   'default': 'Na asali',
 };

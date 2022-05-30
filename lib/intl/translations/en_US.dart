@@ -5,8 +5,7 @@ const en_US = <String, String>{
   'settings': 'Settings',
   'account': 'Account',
   'selectLanguage': 'Select Language',
-  'pen_singular': 'pen',
-  'pen_plural': 'pens',
-  'iHave': 'I have',
+  'pen_singular': 'I have @count pen',
+  'pen_plural': 'I have @count pens',
   'default': 'Default',
 };

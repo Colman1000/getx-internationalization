@@ -1,3 +1,4 @@
+///Translated with Google Translate.
 const fr = <String, String>{
   'hello': 'Bonjour le Monde',
   'title': 'Internationalisation',
@@ -5,8 +6,7 @@ const fr = <String, String>{
   'settings': 'Réglages',
   'account': 'Compte',
   'selectLanguage': 'Choisir la Langue',
-  'pen_singular': 'un stylo',
-  'pen_plural': 'des stylos',
-  'iHave': "J'ai",
+  'pen_singular': 'J\'ai un stylo',
+  'pen_plural': 'J\'ai @count stylos',
   'default': 'Défaut',
 };

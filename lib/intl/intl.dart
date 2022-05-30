@@ -1,12 +1,12 @@
-import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:getx_internationalization/intl/translations/de.dart';
-import 'package:getx_internationalization/intl/translations/ha_NG.dart';
-import 'package:getx_internationalization/intl/translations/ko.dart';
-import 'package:getx_internationalization/intl/translations/tv_NG.dart';
-import 'package:getx_internationalization/intl/translations/yr_NG.dart';
+import 'package:flutter/material.dart';
 
+import 'translations/de.dart';
+import 'translations/ha_NG.dart';
+import 'translations/ko.dart';
+import 'translations/tv_NG.dart';
 import 'translations/en_US.dart';
+import 'translations/yr_NG.dart';
 import 'translations/fr.dart';
 import 'translations/ig_NG.dart';
 
